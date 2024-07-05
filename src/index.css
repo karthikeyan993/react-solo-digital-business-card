@@ -1,0 +1,153 @@
+:root,
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+
+}
+
+h1,
+h3,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background: #23252C;
+  color: #fff;
+  font-size: 16px;
+  padding: 50px 100px;
+}
+
+.card {
+  width: 320px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #1A1B21;
+}
+
+.info {
+  text-align: center;
+}
+
+.info__details {
+  margin: 20px auto;
+  background-color: #1A1B21;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 35px;
+}
+
+.info__person {
+  width: 320px;
+  height: 320px;
+}
+
+.info h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.info .info__role {
+  font-size: 0.75rem;
+  color: #F3BF99;
+}
+
+.info .info__website {
+  display: block;
+  font-size: 0.6rem;
+  padding-top: 0.25rem;
+}
+
+.info__social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.info__social-buttons .btn {
+  min-width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 6px;
+  gap: 0.5rem;
+}
+
+.info__social-buttons .btn img {
+  width: 16px;
+  height: auto;
+}
+
+.info__social-buttons .btn p {
+  font-size: 0.9rem;
+}
+
+.info__email {
+  background-color: #FFFFFF;
+  color: #374151;
+}
+
+.info__linkedin {
+  background-color: #5093E2;
+  color: #fff;
+}
+
+.about {
+  margin-top: 35px;
+}
+
+.about,
+.interests {
+  padding: 0 35px;
+  margin-bottom: 20px;
+}
+
+.about h3,
+.interests h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.about p,
+.interests p {
+  padding-top: 0.5rem;
+  color: #DCDCDC;
+  font-size: 0.70rem;
+  line-height: 1.5;
+}
+
+footer {
+  margin-top: 35px;
+  background-color: #161619;
+  padding: 20px 35px;
+}
+
+footer ul {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
